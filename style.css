@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.butts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: none;
+  background-color: none;
+  color: cornflowerblue;
+  text-decoration: none;
+}
