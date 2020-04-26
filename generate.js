@@ -145,4 +145,5 @@ function setup() {
       }
     }
   }
+  save("msg");
 }
