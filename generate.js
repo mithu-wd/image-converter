@@ -135,13 +135,13 @@ function setup() {
         // set the pixel accoring to the matched values
         fill(x[xx]);
 
-        rect(xx * 10, yy * 10, 1, 1);
+        rect(xx , yy , 1, 1);
       } else {
         // seperates them from the unmatched values
 
         fill(0);
 
-        rect(xx * 10, yy * 10, 1, 1);
+        rect(xx , yy , 1, 1);
       }
     }
   }
